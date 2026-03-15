@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantitative-retail-research"
+version = "0.1.0"
+description = "Research code for Quantitative Retail"
+authors = [
+  { name = "Michael Moody" }
+]
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
